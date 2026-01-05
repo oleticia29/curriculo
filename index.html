@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body >
+<header>
+ <h1>Portifólio Leticia S. de Oliveira </h1>
+</header>
+<div id="mySidebar" class="sidebar"> 
+    <a href="javascript:void(0)"  class="closebtn" onclick="closeNav()">×</a>
+    <a href="#DadosPessoais">Dados Pessoais</a>
+    <a href="#Formaçâo">Formação</a>
+    <a href="#Habilidades">Habilidades</a>
+    <a href="#conhecimento">Conhecimento</a>
+    <a href="#Idiomas">Idiomas</a>
+    <a href="#Meu Portfólio">Meu Portfólio</a>
+  </div>  <!-- Conteúdo principal -->
+  <div id="main"> 
+    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        
+ 
+<article id="centro"><p>Meu nome é Letícia Souza, atualmente sou Jovem Aprendiz na Telefonica Vivo, atuando na área de Engenharia e Serviços ao Cliente.</p></article>
+
+<article><section id="DadosPessoais"></section>
+<h2>Dados pessoais</h2>
+<p>Nome:Letícia Souza de Oliveira</p>
+<p>Email:o.leticiaa29@gmail.com</p>
+<p>Numero:(41)99197-1905</p></article>
+  
+<article><section id="Formação"></section>
+<h2>Formação </h2><ul>
+<li>Ensino Técnico Integrado ao Ensino médio de  Programação de Jogos Digitais </li>
+<li> Instituto Federal do Paraná.</li>
+<li> 2022 - 2025.</li>
+
+<li>Analise e Desenvolvimento de Sistemas </li>
+<li> Unicesumar.</li>
+<li> 2026 - Em andamento.</li>
+
+</ul></article>
+<article>
+<section id="Conhecimento"></section>
+<h2>Conhecimento</h2>
+<ul>
+<li> Linguagem de programação: C, C++, C# e JavaScript;</li>
+<li> Linguagem de marcação/texto: HTML5;</li>
+<li> Linguagem de folha de estilo: CSS;</li>
+<li> Ambiente de desenvolvimento utilizado: Motor Gráfico Unity, Visual Studio, Code Blocks. Software de Modelagem: Blender; </li>
+<li> Software de Ilustração: Inkscape; </li>
+<li> Software de Som: Fmod, Audacity e Nuendo;</li>
+<li> Pacote office completo.</li>
+</ul>
+</article>
+<article>
+<section id="Habilidades"></section>
+<h2>Habilidades</h2>
+<ul>
+    <li> Modelagem 3D (experiência com Blender)</li>
+    <li> Ilustração 2D (conhecimento em Inkscape)</li>
+    <li> Desenvolvimento de jogos digitais</li>
+    <li>Trabalho em equipe, comunicação, criatividade.</li>
+</ul></article>
+
+<article>
+<section id="Idiomas"></section>
+<h2>Idiomas</h2>
+<ul>
+<li> Inglês - Intermediário</li>
+<li> Espanhol - básico</li>
+<li> Portugues- Fluente/Nativo </li>
+</ul></article>
+    
+
+<div class="carrossel-container">
+    <article id="centro">
+<section id="Meu Portfólio"></section>
+    <h2>Meu Portfólio</h2>
+</article>
+    <div class="carrossel">
+      
+      <!-- Botão para ir para a imagem anterior -->
+      <button class="carrossel-btn" onclick="mudarImagens(-1)">&#10094;</button>
+  
+      <!-- Área onde as imagens serão inseridas dinamicamente -->
+      <div class="carrossel-imagens" id="carrossel-imagens">
+        <!-- Imagens serão inseridas via JavaScript -->
+      </div>
+  
+      <!-- Botão para ir para a próxima imagem -->
+      <button class="carrossel-btn" onclick="mudarImagens(1)">&#10095;</button>
+  
+    </div>
+  </div>
+
+
+         
+    <footer>
+        <p>&copy; 2025  - Todos os direitos reservados.</p>
+        <div class="botoes-fontes">  
+            <button onclick="document.body.style.fontFamily='Roboto'">Roboto</button>
+          <button onclick="document.body.style.fontFamily='Lobster'">Lobster</button>
+          <button onclick="document.body.style.fontFamily='Montserrat'">Montserrat</button>
+        </div>
+    </footer>   
+</div>
+<script src="javascript/javascript.js"></script> 
+</body>
+</html>
